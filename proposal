@@ -1,0 +1,8 @@
+Project proposal
+1. Project Title - Food Vader Website
+2. Team Members - Anjali Krishna Vengayil, Anh Huynh, Chander Viswanathan, Kieran, Jeanette Ilongo, Mark Squier
+3. Project Description/Outline - We would like to create a visually appealing and interactive website for users to find the best restaurant from the composite ratings of Google, Yelp, and Zomato.
+4. Research Questions to Answer - How can we add a twitter feed, interactive map, and the option for consumers to order from restaurants on our website?
+5. Data sources or Data Sets to be Used - Google, Yelp, and Zomato ratings, SqlAlchemy, Sqlite, ORMs, Python, Javascript, Leaflet etc. 
+6. APIs to be consumed (if any) - Google, Yelp, and Zomato APIs
+7. Rough Breakdown of Tasks - Team Lead: Jeanette, Scrum Masters:Anjali, Data Engineers: Mark, Chander, Kieran ,  Testers: Everyone
