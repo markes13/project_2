@@ -1,4 +1,5 @@
-Project 2
+Project 2 Proposal
+
 Project Title: The Effects of Global Warming
 Team Members: Anjali Krishna Vengayil, Anh Huynh, Chander Viswanathan, Kieran, Jeanette Ilongo, Mark Squier
 Project Description/Outline: We would like to create a visually appealing and interactive website for users to observe the changes in sea level and temperature increase over time.
