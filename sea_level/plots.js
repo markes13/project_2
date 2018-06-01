@@ -19,3 +19,7 @@ var layout = {
 
 // Render the plot to the div tag with id "plot"
 Plotly.newPlot("plot", data, layout);
+
+// save fig
+fig = go.Figure(data=data, layout=layout)
+py.image.save_as(fig, filename='a-simple-plot.png')
