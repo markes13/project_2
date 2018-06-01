@@ -1,0 +1,627 @@
+var data = [
+  {
+    "YEAR": 1895,
+    "AVERAGE of TMIN": 38.1,
+    "AVERAGE of TMAX": 62.57
+  },
+  {
+    "YEAR": 1896,
+    "AVERAGE of TMIN": 40.24,
+    "AVERAGE of TMAX": 63.74
+  },
+  {
+    "YEAR": 1897,
+    "AVERAGE of TMIN": 39.7,
+    "AVERAGE of TMAX": 63.4
+  },
+  {
+    "YEAR": 1898,
+    "AVERAGE of TMIN": 39.55,
+    "AVERAGE of TMAX": 63.31
+  },
+  {
+    "YEAR": 1899,
+    "AVERAGE of TMIN": 39.08,
+    "AVERAGE of TMAX": 62.93
+  },
+  {
+    "YEAR": 1900,
+    "AVERAGE of TMIN": 40.96,
+    "AVERAGE of TMAX": 64.59
+  },
+  {
+    "YEAR": 1901,
+    "AVERAGE of TMIN": 39.77,
+    "AVERAGE of TMAX": 63.97
+  },
+  {
+    "YEAR": 1902,
+    "AVERAGE of TMIN": 39.79,
+    "AVERAGE of TMAX": 63.38
+  },
+  {
+    "YEAR": 1903,
+    "AVERAGE of TMIN": 38.75,
+    "AVERAGE of TMAX": 62.49
+  },
+  {
+    "YEAR": 1904,
+    "AVERAGE of TMIN": 38.92,
+    "AVERAGE of TMAX": 63.39
+  },
+  {
+    "YEAR": 1905,
+    "AVERAGE of TMIN": 39.45,
+    "AVERAGE of TMAX": 62.54
+  },
+  {
+    "YEAR": 1906,
+    "AVERAGE of TMIN": 40.12,
+    "AVERAGE of TMAX": 63.32
+  },
+  {
+    "YEAR": 1907,
+    "AVERAGE of TMIN": 39.69,
+    "AVERAGE of TMAX": 63.27
+  },
+  {
+    "YEAR": 1908,
+    "AVERAGE of TMIN": 39.96,
+    "AVERAGE of TMAX": 64.19
+  },
+  {
+    "YEAR": 1909,
+    "AVERAGE of TMIN": 39.54,
+    "AVERAGE of TMAX": 63.33
+  },
+  {
+    "YEAR": 1910,
+    "AVERAGE of TMIN": 39.9,
+    "AVERAGE of TMAX": 64.93
+  },
+  {
+    "YEAR": 1911,
+    "AVERAGE of TMIN": 40.09,
+    "AVERAGE of TMAX": 63.97
+  },
+  {
+    "YEAR": 1912,
+    "AVERAGE of TMIN": 38.49,
+    "AVERAGE of TMAX": 61.97
+  },
+  {
+    "YEAR": 1913,
+    "AVERAGE of TMIN": 39.6,
+    "AVERAGE of TMAX": 63.48
+  },
+  {
+    "YEAR": 1914,
+    "AVERAGE of TMIN": 39.94,
+    "AVERAGE of TMAX": 63.74
+  },
+  {
+    "YEAR": 1915,
+    "AVERAGE of TMIN": 39.84,
+    "AVERAGE of TMAX": 63.05
+  },
+  {
+    "YEAR": 1916,
+    "AVERAGE of TMIN": 38.57,
+    "AVERAGE of TMAX": 63.12
+  },
+  {
+    "YEAR": 1917,
+    "AVERAGE of TMIN": 37.62,
+    "AVERAGE of TMAX": 62.5
+  },
+  {
+    "YEAR": 1918,
+    "AVERAGE of TMIN": 39.8,
+    "AVERAGE of TMAX": 63.93
+  },
+  {
+    "YEAR": 1919,
+    "AVERAGE of TMIN": 39.78,
+    "AVERAGE of TMAX": 63.31
+  },
+  {
+    "YEAR": 1920,
+    "AVERAGE of TMIN": 39.45,
+    "AVERAGE of TMAX": 62.7
+  },
+  {
+    "YEAR": 1921,
+    "AVERAGE of TMIN": 41.63,
+    "AVERAGE of TMAX": 65.96
+  },
+  {
+    "YEAR": 1922,
+    "AVERAGE of TMIN": 40.01,
+    "AVERAGE of TMAX": 64.05
+  },
+  {
+    "YEAR": 1923,
+    "AVERAGE of TMIN": 39.87,
+    "AVERAGE of TMAX": 63.41
+  },
+  {
+    "YEAR": 1924,
+    "AVERAGE of TMIN": 38.26,
+    "AVERAGE of TMAX": 62.92
+  },
+  {
+    "YEAR": 1925,
+    "AVERAGE of TMIN": 40.41,
+    "AVERAGE of TMAX": 64.62
+  },
+  {
+    "YEAR": 1926,
+    "AVERAGE of TMIN": 40.03,
+    "AVERAGE of TMAX": 63.87
+  },
+  {
+    "YEAR": 1927,
+    "AVERAGE of TMIN": 40.38,
+    "AVERAGE of TMAX": 63.91
+  },
+  {
+    "YEAR": 1928,
+    "AVERAGE of TMIN": 39.9,
+    "AVERAGE of TMAX": 63.92
+  },
+  {
+    "YEAR": 1929,
+    "AVERAGE of TMIN": 38.78,
+    "AVERAGE of TMAX": 62.92
+  },
+  {
+    "YEAR": 1930,
+    "AVERAGE of TMIN": 39.76,
+    "AVERAGE of TMAX": 64.19
+  },
+  {
+    "YEAR": 1931,
+    "AVERAGE of TMIN": 41.43,
+    "AVERAGE of TMAX": 65.64
+  },
+  {
+    "YEAR": 1932,
+    "AVERAGE of TMIN": 39.7,
+    "AVERAGE of TMAX": 63.76
+  },
+  {
+    "YEAR": 1933,
+    "AVERAGE of TMIN": 40.57,
+    "AVERAGE of TMAX": 65.41
+  },
+  {
+    "YEAR": 1934,
+    "AVERAGE of TMIN": 41.44,
+    "AVERAGE of TMAX": 66.76
+  },
+  {
+    "YEAR": 1935,
+    "AVERAGE of TMIN": 40.11,
+    "AVERAGE of TMAX": 63.68
+  },
+  {
+    "YEAR": 1936,
+    "AVERAGE of TMIN": 39.7,
+    "AVERAGE of TMAX": 64.6
+  },
+  {
+    "YEAR": 1937,
+    "AVERAGE of TMIN": 39.66,
+    "AVERAGE of TMAX": 63.44
+  },
+  {
+    "YEAR": 1938,
+    "AVERAGE of TMIN": 41.14,
+    "AVERAGE of TMAX": 65.22
+  },
+  {
+    "YEAR": 1939,
+    "AVERAGE of TMIN": 40.61,
+    "AVERAGE of TMAX": 65.91
+  },
+  {
+    "YEAR": 1940,
+    "AVERAGE of TMIN": 40.04,
+    "AVERAGE of TMAX": 63.73
+  },
+  {
+    "YEAR": 1941,
+    "AVERAGE of TMIN": 41.23,
+    "AVERAGE of TMAX": 64.08
+  },
+  {
+    "YEAR": 1942,
+    "AVERAGE of TMIN": 39.82,
+    "AVERAGE of TMAX": 63.85
+  },
+  {
+    "YEAR": 1943,
+    "AVERAGE of TMIN": 39.54,
+    "AVERAGE of TMAX": 64.6
+  },
+  {
+    "YEAR": 1944,
+    "AVERAGE of TMIN": 39.83,
+    "AVERAGE of TMAX": 63.83
+  },
+  {
+    "YEAR": 1945,
+    "AVERAGE of TMIN": 39.8,
+    "AVERAGE of TMAX": 63.69
+  },
+  {
+    "YEAR": 1946,
+    "AVERAGE of TMIN": 40.73,
+    "AVERAGE of TMAX": 65.15
+  },
+  {
+    "YEAR": 1947,
+    "AVERAGE of TMIN": 39.95,
+    "AVERAGE of TMAX": 63.87
+  },
+  {
+    "YEAR": 1948,
+    "AVERAGE of TMIN": 39.38,
+    "AVERAGE of TMAX": 63.84
+  },
+  {
+    "YEAR": 1949,
+    "AVERAGE of TMIN": 39.84,
+    "AVERAGE of TMAX": 64.2
+  },
+  {
+    "YEAR": 1950,
+    "AVERAGE of TMIN": 39.17,
+    "AVERAGE of TMAX": 63.61
+  },
+  {
+    "YEAR": 1951,
+    "AVERAGE of TMIN": 39.05,
+    "AVERAGE of TMAX": 63.19
+  },
+  {
+    "YEAR": 1952,
+    "AVERAGE of TMIN": 39.85,
+    "AVERAGE of TMAX": 64.7
+  },
+  {
+    "YEAR": 1953,
+    "AVERAGE of TMIN": 40.96,
+    "AVERAGE of TMAX": 65.77
+  },
+  {
+    "YEAR": 1954,
+    "AVERAGE of TMIN": 40.87,
+    "AVERAGE of TMAX": 65.78
+  },
+  {
+    "YEAR": 1955,
+    "AVERAGE of TMIN": 39.41,
+    "AVERAGE of TMAX": 63.96
+  },
+  {
+    "YEAR": 1956,
+    "AVERAGE of TMIN": 39.76,
+    "AVERAGE of TMAX": 64.92
+  },
+  {
+    "YEAR": 1957,
+    "AVERAGE of TMIN": 40.63,
+    "AVERAGE of TMAX": 63.47
+  },
+  {
+    "YEAR": 1958,
+    "AVERAGE of TMIN": 40.13,
+    "AVERAGE of TMAX": 63.73
+  },
+  {
+    "YEAR": 1959,
+    "AVERAGE of TMIN": 40.06,
+    "AVERAGE of TMAX": 64.15
+  },
+  {
+    "YEAR": 1960,
+    "AVERAGE of TMIN": 39.45,
+    "AVERAGE of TMAX": 63.43
+  },
+  {
+    "YEAR": 1961,
+    "AVERAGE of TMIN": 39.91,
+    "AVERAGE of TMAX": 63.82
+  },
+  {
+    "YEAR": 1962,
+    "AVERAGE of TMIN": 39.84,
+    "AVERAGE of TMAX": 63.96
+  },
+  {
+    "YEAR": 1963,
+    "AVERAGE of TMIN": 39.85,
+    "AVERAGE of TMAX": 64.65
+  },
+  {
+    "YEAR": 1964,
+    "AVERAGE of TMIN": 39.43,
+    "AVERAGE of TMAX": 63.91
+  },
+  {
+    "YEAR": 1965,
+    "AVERAGE of TMIN": 39.89,
+    "AVERAGE of TMAX": 63.47
+  },
+  {
+    "YEAR": 1966,
+    "AVERAGE of TMIN": 39.34,
+    "AVERAGE of TMAX": 63.64
+  },
+  {
+    "YEAR": 1967,
+    "AVERAGE of TMIN": 39.69,
+    "AVERAGE of TMAX": 63.83
+  },
+  {
+    "YEAR": 1968,
+    "AVERAGE of TMIN": 39.43,
+    "AVERAGE of TMAX": 63.21
+  },
+  {
+    "YEAR": 1969,
+    "AVERAGE of TMIN": 39.81,
+    "AVERAGE of TMAX": 63.19
+  },
+  {
+    "YEAR": 1970,
+    "AVERAGE of TMIN": 39.67,
+    "AVERAGE of TMAX": 63.55
+  },
+  {
+    "YEAR": 1971,
+    "AVERAGE of TMIN": 39.78,
+    "AVERAGE of TMAX": 63.53
+  },
+  {
+    "YEAR": 1972,
+    "AVERAGE of TMIN": 39.64,
+    "AVERAGE of TMAX": 63.08
+  },
+  {
+    "YEAR": 1973,
+    "AVERAGE of TMIN": 40.75,
+    "AVERAGE of TMAX": 63.82
+  },
+  {
+    "YEAR": 1974,
+    "AVERAGE of TMIN": 40.21,
+    "AVERAGE of TMAX": 64.32
+  },
+  {
+    "YEAR": 1975,
+    "AVERAGE of TMIN": 39.77,
+    "AVERAGE of TMAX": 63.23
+  },
+  {
+    "YEAR": 1976,
+    "AVERAGE of TMIN": 38.87,
+    "AVERAGE of TMAX": 64.07
+  },
+  {
+    "YEAR": 1977,
+    "AVERAGE of TMIN": 40.52,
+    "AVERAGE of TMAX": 64.58
+  },
+  {
+    "YEAR": 1978,
+    "AVERAGE of TMIN": 39.32,
+    "AVERAGE of TMAX": 62.77
+  },
+  {
+    "YEAR": 1979,
+    "AVERAGE of TMIN": 39.06,
+    "AVERAGE of TMAX": 62.71
+  },
+  {
+    "YEAR": 1980,
+    "AVERAGE of TMIN": 40.33,
+    "AVERAGE of TMAX": 64.44
+  },
+  {
+    "YEAR": 1981,
+    "AVERAGE of TMIN": 41.17,
+    "AVERAGE of TMAX": 65.07
+  },
+  {
+    "YEAR": 1982,
+    "AVERAGE of TMIN": 39.84,
+    "AVERAGE of TMAX": 62.83
+  },
+  {
+    "YEAR": 1983,
+    "AVERAGE of TMIN": 40.68,
+    "AVERAGE of TMAX": 63.07
+  },
+  {
+    "YEAR": 1984,
+    "AVERAGE of TMIN": 40.37,
+    "AVERAGE of TMAX": 63.59
+  },
+  {
+    "YEAR": 1985,
+    "AVERAGE of TMIN": 39.55,
+    "AVERAGE of TMAX": 63.05
+  },
+  {
+    "YEAR": 1986,
+    "AVERAGE of TMIN": 41.74,
+    "AVERAGE of TMAX": 64.9
+  },
+  {
+    "YEAR": 1987,
+    "AVERAGE of TMIN": 41.32,
+    "AVERAGE of TMAX": 65.34
+  },
+  {
+    "YEAR": 1988,
+    "AVERAGE of TMIN": 40.07,
+    "AVERAGE of TMAX": 65.18
+  },
+  {
+    "YEAR": 1989,
+    "AVERAGE of TMIN": 39.69,
+    "AVERAGE of TMAX": 63.97
+  },
+  {
+    "YEAR": 1990,
+    "AVERAGE of TMIN": 41.39,
+    "AVERAGE of TMAX": 65.63
+  },
+  {
+    "YEAR": 1991,
+    "AVERAGE of TMIN": 41.51,
+    "AVERAGE of TMAX": 64.8
+  },
+  {
+    "YEAR": 1992,
+    "AVERAGE of TMIN": 41.07,
+    "AVERAGE of TMAX": 64.13
+  },
+  {
+    "YEAR": 1993,
+    "AVERAGE of TMIN": 39.83,
+    "AVERAGE of TMAX": 62.68
+  },
+  {
+    "YEAR": 1994,
+    "AVERAGE of TMIN": 40.94,
+    "AVERAGE of TMAX": 64.8
+  },
+  {
+    "YEAR": 1995,
+    "AVERAGE of TMIN": 40.96,
+    "AVERAGE of TMAX": 64.34
+  },
+  {
+    "YEAR": 1996,
+    "AVERAGE of TMIN": 40.05,
+    "AVERAGE of TMAX": 63.71
+  },
+  {
+    "YEAR": 1997,
+    "AVERAGE of TMIN": 40.68,
+    "AVERAGE of TMAX": 63.72
+  },
+  {
+    "YEAR": 1998,
+    "AVERAGE of TMIN": 42.82,
+    "AVERAGE of TMAX": 65.63
+  },
+  {
+    "YEAR": 1999,
+    "AVERAGE of TMIN": 41.55,
+    "AVERAGE of TMAX": 66.2
+  },
+  {
+    "YEAR": 2000,
+    "AVERAGE of TMIN": 41.21,
+    "AVERAGE of TMAX": 65.31
+  },
+  {
+    "YEAR": 2001,
+    "AVERAGE of TMIN": 41.74,
+    "AVERAGE of TMAX": 65.64
+  },
+  {
+    "YEAR": 2002,
+    "AVERAGE of TMIN": 41.22,
+    "AVERAGE of TMAX": 65.19
+  },
+  {
+    "YEAR": 2003,
+    "AVERAGE of TMIN": 41.4,
+    "AVERAGE of TMAX": 65.11
+  },
+  {
+    "YEAR": 2004,
+    "AVERAGE of TMIN": 41.57,
+    "AVERAGE of TMAX": 64.61
+  },
+  {
+    "YEAR": 2005,
+    "AVERAGE of TMIN": 41.78,
+    "AVERAGE of TMAX": 65.49
+  },
+  {
+    "YEAR": 2006,
+    "AVERAGE of TMIN": 42.08,
+    "AVERAGE of TMAX": 66.41
+  },
+  {
+    "YEAR": 2007,
+    "AVERAGE of TMIN": 41.67,
+    "AVERAGE of TMAX": 65.64
+  },
+  {
+    "YEAR": 2008,
+    "AVERAGE of TMIN": 40.13,
+    "AVERAGE of TMAX": 64.45
+  },
+  {
+    "YEAR": 2009,
+    "AVERAGE of TMIN": 40.6,
+    "AVERAGE of TMAX": 64.17
+  },
+  {
+    "YEAR": 2010,
+    "AVERAGE of TMIN": 41.31,
+    "AVERAGE of TMAX": 64.66
+  },
+  {
+    "YEAR": 2011,
+    "AVERAGE of TMIN": 41.2,
+    "AVERAGE of TMAX": 65.16
+  },
+  {
+    "YEAR": 2012,
+    "AVERAGE of TMIN": 42.88,
+    "AVERAGE of TMAX": 67.69
+  },
+  {
+    "YEAR": 2013,
+    "AVERAGE of TMIN": 40.7,
+    "AVERAGE of TMAX": 64.15
+  },
+  {
+    "YEAR": 2014,
+    "AVERAGE of TMIN": 40.73,
+    "AVERAGE of TMAX": 64.34
+  },
+  {
+    "YEAR": 2015,
+    "AVERAGE of TMIN": 42.71,
+    "AVERAGE of TMAX": 66.07
+  },
+  {
+    "YEAR": 2016,
+    "AVERAGE of TMIN": 43.13,
+    "AVERAGE of TMAX": 66.69
+  },
+  {
+    "YEAR": 2017,
+    "AVERAGE of TMIN": 42.74,
+    "AVERAGE of TMAX": 66.33
+  },
+  {
+    "YEAR": 2018,
+    "AVERAGE of TMIN": 21.16,
+    "AVERAGE of TMAX": 43.14
+  },
+  {
+    "YEAR": "Grand Total",
+    "AVERAGE of TMIN": 40.22,
+    "AVERAGE of TMAX": 64.15
+  }
+]
