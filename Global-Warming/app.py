@@ -51,6 +51,11 @@ def lossProperty():
     """Return the sealevel rise dataset."""
     return render_template ('Loss_Statistics.htm')
 
+@app.route("/tempData")
+def tempData():
+    """Return the sealevel rise dataset."""
+    return render_template ('data_temp.csv')
+
 @app.route("/seaLevelGraph")
 def seaLevelGraph():
     """Return the seaLevel graph."""
