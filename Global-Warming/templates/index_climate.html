@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Climate Predictions</title>
+<!-- 	<link rel="stylesheet"  href="index.css">
+ -->	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css">
+
+<style>
+
+#chart svg {
+  height: 400px;
+}
+
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Climate Predictions</h1>
+		<h2>The following graph displays the different predicted possibilities of climate by 2100. The Y-axis is the percent increase above the average global temperature in 2000. The X-axis is every quater century.</h2>
+
+	</div>
+
+
+<div id="chart">
+  <svg></svg>
+</div>
+
+
+
+
+
+
+	<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+
+	<!-- <script type="text/javascript" src="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.min.js"></script> -->
+	<script type="text/javascript" src="static/nv.d3.min.js"></script>
+
+		<script type="text/javascript" src="/static/climate_predictions_graph/index.js"></script>
+</body>
+</html>

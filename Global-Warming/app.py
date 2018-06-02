@@ -48,12 +48,12 @@ def seaLevel():
 
 @app.route("/lossData")
 def lossProperty():
-    """Return the sealevel rise dataset."""
+    """Return the lossProperty dataset."""
     return render_template ('Loss_Statistics.htm')
 
 @app.route("/tempData")
 def tempData():
-    """Return the sealevel rise dataset."""
+    """Return the temperature dataset."""
     return render_template ('data_temp.csv')
 
 @app.route("/seaLevelGraph")
@@ -63,13 +63,18 @@ def seaLevelGraph():
 
 @app.route("/lossPropertyGraph")
 def lossPropertyGraph():
-    """Return the seaLevel graph."""
+    """Return the lossProperty graph."""
     return render_template("PolicyLoss.html")
 
 @app.route("/tempGraph")
 def tempGraph():
-    """Return the seaLevel graph."""
+    """Return the temperature graph."""
     return render_template("viz.html")  
+
+@app.route("/climateGraph")
+def climateGraph():
+    """Return the climate graph."""
+    return render_template("index_climate.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
