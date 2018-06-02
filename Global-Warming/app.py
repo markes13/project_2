@@ -44,17 +44,17 @@ def home():
 @app.route("/seaLevelData")
 def seaLevel():
     """Return the sealevel rise dataset."""
-    return render_template ('data_sealevel.csv')
+    return render_template ('seaLevelData.html')
 
 @app.route("/lossData")
 def lossProperty():
     """Return the lossProperty dataset."""
-    return render_template ('Loss_Statistics.htm')
+    return render_template ('propertyLossData.html')
 
 @app.route("/tempData")
 def tempData():
     """Return the temperature dataset."""
-    return render_template ('data_temp.csv')
+    return render_template ('tempData.html')
 
 @app.route("/seaLevelGraph")
 def seaLevelGraph():
