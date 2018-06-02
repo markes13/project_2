@@ -1,1 +1,1 @@
-worker: python Global-Warming/app.py
+worker: python app.py
